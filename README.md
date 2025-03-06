@@ -5,3 +5,10 @@ Comentarios de los post aparecen despues de refrescar la pagina
 Searchtool no responsiva
 No CRUD
 Falta de diseño
+
+Tecnologias utilizadas: 
+Typescript
+Angular
+Angular CLI 
+Bootstrap
+JSONPLACEHOLDER
