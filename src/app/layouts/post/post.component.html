@@ -1,0 +1,9 @@
+<div class="post-container">
+    <div class="card border-primary m-4" *ngFor="let post of data">
+      <div class="card-header text-center">{{ post.userId }}</div>
+      <div class="card-body">
+        <h5 class="card-title text-center tituloPostSolo"> {{ post.title | uppercase }} </h5>
+        <p> {{ post.body }}</p>        
+      </div>
+    </div>
+  </div>

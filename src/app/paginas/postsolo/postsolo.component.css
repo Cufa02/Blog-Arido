@@ -1,0 +1,8 @@
+.postSoloContenedor{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    justify-self: center;
+    padding: 20px;
+    max-width: 120vb;
+    box-shadow: 0 0 30px -10px;
+}

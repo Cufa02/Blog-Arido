@@ -1,0 +1,8 @@
+<div *ngIf="post" class="card postSoloContenedor">
+    <h4 class="text-center">{{ post.userId }}</h4>
+    <h2 class="mt-3 mb-3 text-center"><u>{{ post.title | uppercase}}</u></h2>
+    <p>{{ post.body }}</p>
+  </div>
+
+
+  <app-listacomentario [postId]="post?.id"></app-listacomentario>
